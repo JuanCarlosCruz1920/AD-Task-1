@@ -1,0 +1,108 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Inter', sans-serif;
+  background-color: #121212;
+  color: #ddd;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px 16px;
+}
+main.container {
+  width: 100%;
+  max-width: 600px;
+  text-align: center;
+}
+.calendar-header {
+  font-size: 36px;
+  font-weight: 700;
+  color: #4caf50;
+  margin-bottom: 40px;
+}
+.daily-schedule {
+  list-style: none;
+  background-color: #1f1f1f;
+  border-radius: 10px;
+  padding: 24px 32px;
+  display: flex;
+  flex-direction: column;
+  gap: 21px;
+}
+.day-entry {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  padding: 16px 0;
+  border-bottom: 1px solid #333;
+}
+.day-entry:last-child {
+  border-bottom: none;
+}
+.day-number {
+  font-weight: 700;
+  font-size: 21px;
+  width: 40px;
+  color: #81c784;
+  user-select: none;
+}
+.day-content {
+  flex-grow: 1;
+  font-size: 16px;
+  color: #ccc;
+  text-align: left;
+}
+.deadline-label {
+  font-weight: 600;
+  color: #4caf50;
+  margin-right: 6px;
+}
+.deadline-item {
+  font-weight: 500;
+}
+.no-deadline {
+  font-style: italic;
+  color: #777;
+}
+.day-entry.today {
+  background-color: #2a3e2a;
+  border-radius: 6px;
+  font-weight: 600;
+}
+.day-entry.deadline {
+  background-color: #2f442f;
+  border-radius: 6px;
+}
+.calendar-footer {
+  margin-top: 48px;
+}
+.calendar-footer-button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 12px 40px;
+  border-radius: 30px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  text-decoration: none;
+  user-select: none;
+  display: inline-block;
+  transition: background-color 0.25s ease;
+}
+.calendar-footer-button:hover {
+  background-color: #3a8b3a;
+}
+@media (max-width: 480px) {
+  .day-entry {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+  .day-content {
+    text-align: center;
+  }
+}
