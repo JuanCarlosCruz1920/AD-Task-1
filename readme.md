@@ -33,27 +33,51 @@ Frameworks: None (pure PHP)
 Database: None (static PHP files)
 
 AD-TASK-1-MAIN/
+
 │
+
 ├── assets/
+
 │   └── css/
+
 │       ├── calendar.css
+
 │       └── releases.css
+
 │
+
 ├── layout/
+
 │   ├── footer.layout.php
+
 │   └── header.layout.php
+
 │
+
 ├── pages/
+
 │   ├── calendar/
+
 │   │   └── index.php
+
 │   └── releases/
+
 │       └── index.php
+
 │
+
 ├── staticData/
+
 │   └── releases.staticdata.php
+
 │
+
 ├── bootstrap.php
+
 ├── composer.json
+
 ├── composer.lock
+
 ├── index.php
+
 └── readme.md
