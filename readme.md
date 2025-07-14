@@ -1,6 +1,8 @@
 Calendar App
 
+
 A simple event calendar built using fundamental PHP concepts and modular design.
+
 
 
 Table of Contents
@@ -16,7 +18,9 @@ Rules, Practices and Principles
 File Structure
 
 
+
 Overview
+
 
 Calendar App is a sample PHP project that demonstrates core programming principles through the creation of a basic calendar and event listing interface. It emphasizes procedural PHP, modular file 
 
@@ -32,7 +36,10 @@ Functions: Reusable logic for rendering calendars, formatting dates, and filteri
 
 Fragmentation: The app is split into layout files, static data, utility functions, and page-specific logic for better maintainability.
 
+
+
 Key Components
+
 
 Home Page (/): Displays a monthly calendar with clickable dates.
 
@@ -45,7 +52,9 @@ Layout: Shared components like headers and footers are modularized in the layout
 CSS Styling: Custom styles are located in assets/css/calendar.css.
 
 
+
 Technology
+
 
 Language: PHP
 
@@ -54,6 +63,7 @@ Styling: CSS3
 Frameworks: None (pure PHP)
 
 Database: None (static PHP files)
+
 
 AD-TASK-1-MAIN/
 
